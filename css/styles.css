@@ -1,0 +1,267 @@
+body{
+  background-color: #ECECEC;
+  font-family: 'Montserrat';
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.container{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#title {
+  background-color: #14213d;
+}
+
+.heading{
+  color: #f3f0e2;
+  font-family: 'IBM Plex Mono';
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.image{
+  border-radius: 10px;
+}
+
+/* navbar */
+
+.navbar{
+  /* padding: 0 0 4.5rem 0; */
+  background-color: #14213d;
+}
+
+.navbar-brand{ 
+  /* font-family: 'IBM Plex Mono'; */
+  font-family: 'Dancing Script';
+  color: #f3f0e2;
+
+  font-size: 1.5rem;
+}
+
+.nav-item{
+  font-size: 1.2rem;
+}
+
+.home-div{
+  margin-top: 5%;
+}
+/* button */
+
+.navigation{
+  margin: 5% 3% 5% 0;
+}
+
+/* head */
+
+.div1{
+  /* outline: dashed 1px white; */
+  display: inline-block;
+
+}
+
+.div2{
+  justify-items: center;
+}
+
+.father{
+  /* outline: dashed 1px white; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.another {
+  /* outline: dashed 1px white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* About Me */
+
+#aboutme{
+  background-color: #f3f0e2;
+}
+
+.aboutMeTitle{
+  margin-bottom: 2rem;
+}
+
+/* Technologies */
+
+#TechnologiesUsed{
+  background-color: #14213d;
+}
+
+.icon-div{
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+}
+
+.icons{
+  height: 60%;
+  width: 60%;
+}
+
+.col-md-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-title{
+  color: white;
+}
+
+.tech-subtitle{
+  color: white;
+  margin-bottom: 5%;
+}
+
+.btn-resume{
+  color: #D1495B;
+  border-color: #D1495B;
+}
+
+.btn-resume:hover{
+  background-color: #D1495B;
+  color:#f3f0e2;
+  border-color: #D1495B;
+}
+
+.btn-resume:active{
+  background-color:#D1495B !important;
+  color: #f3f0e2 !important;
+  border-color: #D1495B !important
+}
+
+/* WORK */
+
+
+#Work{
+  background-color: #f3f0e2;
+}
+
+.project-row{
+  margin: 5% 0;
+}
+
+.project-img{
+  border-radius: 5%;
+}
+
+/* project - 1 */
+
+.wrk-img{
+  display: flex;
+  justify-content:center;
+}
+.wrk-desc{
+  display: flex;
+  align-items: center;
+}
+
+/* project - 2 */
+
+.wrk-desc-2{
+  /* border-style: dotted; */
+  display: flex;
+  align-items: center;
+}
+.wrk-img-2{
+  /* border-style: dotted; */
+  display: flex;
+  justify-content: center;
+}
+.desc-in{
+  text-align: end;
+}
+
+
+/* Contact Me */
+
+#Contact-Me{
+  background-color: #14213d;
+}
+
+.contact-title{
+  color: white;
+}
+.info-t{
+  color: white;
+}
+.info{
+  color: #f9c22e;
+}
+.info-div{
+  text-align: center;
+  margin: 3% 0;
+}
+
+.fa-brands{
+  color: white;
+  font-size: 30px;
+}
+.contact-icons{
+  display: flex;
+  justify-content: center;
+}
+.col-lg-1{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* Slider 2 */
+
+*{
+  margin: 0;
+}
+
+#TechnologiesUsed{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#14213d;
+  padding: 3% 0;
+}
+
+.technologies2-title{
+  color: white;
+}
+
+.technologies2-subtitle{
+  color: white;
+}
+
+.my-slider{
+  margin-left: 10%;
+}
+
+/* .container{
+  width: 1600px;
+  margin: auto;
+} */
+
+/* .subcontainer{
+  width: 85%;
+  margin: auto;
+} */
+
+@media(max-width: 1600px){
+  .container{
+      width: 100%;
+  }
+}
+
